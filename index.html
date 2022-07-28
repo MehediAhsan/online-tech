@@ -12,12 +12,12 @@
     ></script>
   </head>
   <body>
-    <div class="navbar bg-base-100 text-accent mb-16 shadow-sm">
+    <div class="container sm:px-10 mx-auto navbar bg-base-100 text-accent mb-4 shadow-sm">
       <div class="navbar-start">
-        <a class="normal-case text-xl font-semibold">Online-Teck</a>
+        <a class="normal-case text-2xl font-semibold">DEVS-BD</a>
       </div>
       <div class="navbar-center hidden lg:flex">
-        <ul class="menu menu-horizontal p-0">
+        <ul class="menu menu-horizontal p-0 text-lg font-semibold">
           <li><a href="#">Home</a></li>
           <li><a href="#">Courses</a></li>
           <li><a href="#">Deals</a></li>
@@ -28,6 +28,7 @@
       <div class="navbar-end">
         <a class="btn btn-outline text-primary hover:bg-blue-400 hover:text-white">Register</a>
       </div>
+      <!-- dropdown section start -->
       <div class="dropdown dropdown-end">
         <label tabindex="0" class="btn btn-ghost lg:hidden">
           <svg
@@ -303,10 +304,10 @@
           </div>
           <div class="flex flex-col justify-center">
             <h1 class="text-xl font-semibold text-gray-700">Motion Graphics</h1>
-            <psm class="text-base py-2 text-gray-500">
+            <p class="text-base py-2 text-gray-500">
               Some quick example text to build on the card title and make up the
               bulk of the card.
-            </psm           <h3 class="text-lg font-semibold text-blue-500">Price : 20$</h3>
+            </p >          <h3 class="text-lg font-semibold text-blue-500">Price : 20$</h3>
           </div>
         </div>
       </div>
@@ -352,69 +353,69 @@
       </div>
     </div>
     <div
-      class="container my-10 flex flex-col justify-center items-center mx-auto bg-blue-500 sm:rounded h-56 md:h-80 gap-3"
+    class="container sm:px-10 my-10 flex flex-col md:flex-row justify-center md:justify-evenly  items-center mx-auto bg-blue-500 sm:rounded h-56 md:h-80 gap-3"
+  ><div>
+    <h1 class="text-2xl lg:text-5xl font-semibold leading-10 text-white">
+      Ready to join
+    </h1>
+    <p
+      class="text-sm leading-normal md:text-left text-center text-white mx-auto py-4 max-w-lg"
     >
-      <h1 class="text-2xl lg:text-5xl font-semibold leading-10 text-white">
-        Ready to join
-      </h1>
-      <p
-        class="text-sm leading-normal text-center text-white mx-auto py-4 max-w-lg"
-      >
-        It is a long established fact that a reader will be distracted by the
-        readable content of a page when looking at its layout.
-      </p>
-
-      <label
-        for="my-modal"
-        class="btn btn-primary text-base bg-white font-semibold text-center hover:text-white text-blue-500 w-max"
-      >
-        Registration
-      </label>
-      <input type="checkbox" id="my-modal" class="modal-toggle" />
-      <div class="modal modal-bottom sm:modal-middle">
-        <div class="modal-box">
-          <div
-            class="rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0"
+      It is a long established fact that a reader will be distracted by the
+      readable content of a page when looking at its layout.
+    </p>
+  </div>
+    <label
+      for="my-modal"
+      class="btn btn-primary text-base bg-white font-semibold text-center hover:text-white text-blue-500 w-max"
+    >
+      Registration
+    </label>
+    <input type="checkbox" id="my-modal" class="modal-toggle" />
+    <div class="modal modal-bottom sm:modal-middle">
+      <div class="modal-box">
+        <div
+          class="rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0"
+        >
+          <h2
+            class="text-gray-900 text-lg text-center font-medium title-font mb-5"
           >
-            <h2
-              class="text-gray-900 text-lg text-center font-medium title-font mb-5"
+            Registration
+          </h2>
+          <div class="relative mb-4">
+            <label for="full-name" class="leading-7 text-sm text-gray-600"
+              >Full Name</label
             >
-              Registration
-            </h2>
-            <div class="relative mb-4">
-              <label for="full-name" class="leading-7 text-sm text-gray-600"
-                >Full Name</label
-              >
-              <input
-                type="text"
-                id="full-name"
-                name="full-name"
-                class="w-full bg-white rounded border border-blue-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
-            </div>
-            <div class="relative mb-4">
-              <label for="email" class="leading-7 text-sm text-gray-600"
-                >Email</label
-              >
-              <input
-                type="email"
-                id="email"
-                name="email"
-                class="w-full bg-white rounded border border-blue-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
-              />
-            </div>
-            <div class="modal-action">
-              <label for="my-modal" class="btn btn-error text-white"
-                >Cancel</label
-              >
-              <label for="my-modal" class="btn btn-primary text-white"
-                >Sign Up</label
-              >
-            </div>
+            <input
+              type="text"
+              id="full-name"
+              name="full-name"
+              class="w-full bg-white rounded border border-blue-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            />
+          </div>
+          <div class="relative mb-4">
+            <label for="email" class="leading-7 text-sm text-gray-600"
+              >Email</label
+            >
+            <input
+              type="email"
+              id="email"
+              name="email"
+              class="w-full bg-white rounded border border-blue-300 focus:border-blue-500 focus:ring-2 focus:ring-blue-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
+            />
+          </div>
+          <div class="modal-action">
+            <label for="my-modal" class="btn btn-error text-white"
+              >Cancel</label
+            >
+            <label for="my-modal" class="btn btn-primary text-white"
+              >Sign Up</label
+            >
           </div>
         </div>
       </div>
     </div>
+  </div>
     <div class="container mx-auto my-16">
       <h1
         class="text-2xl sm:text-3xl md:text-5xl font-semibold leading-10 text-center mt-16 mx-auto text-gray-900"
