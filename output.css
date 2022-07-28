@@ -1961,6 +1961,10 @@ html {
   height: auto;
 }
 
+.h-56 {
+  height: 14rem;
+}
+
 .w-5 {
   width: 1.25rem;
 }
@@ -2032,6 +2036,10 @@ html {
   gap: 1.5rem;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .scroll-smooth {
   scroll-behavior: smooth;
 }
@@ -2048,6 +2056,16 @@ html {
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.bg-blue-500 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(59 130 246 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .object-cover {
@@ -2138,6 +2156,10 @@ html {
   line-height: 1.25;
 }
 
+.leading-normal {
+  line-height: 1.5;
+}
+
 .text-accent {
   --tw-text-opacity: 1;
   color: hsl(var(--a) / var(--tw-text-opacity));
@@ -2213,6 +2235,10 @@ html {
     gap: 1.25rem;
   }
 
+  .sm\:rounded {
+    border-radius: 0.25rem;
+  }
+
   .sm\:p-0 {
     padding: 0px;
   }
@@ -2240,6 +2266,10 @@ html {
 
   .md\:flex {
     display: flex;
+  }
+
+  .md\:h-80 {
+    height: 20rem;
   }
 
   .md\:w-3\/4 {
@@ -2272,5 +2302,10 @@ html {
 
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 }
